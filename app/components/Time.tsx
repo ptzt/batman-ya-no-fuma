@@ -35,7 +35,7 @@ const Time: React.FC = () => {
 
     return (
         <div >
-            <h3 className="text-xl lg:text-5xl font-extrabold leading-tight text-center text-dark-grey-900">
+            <h3 className="text-lg lg:text-5xl font-extrabold leading-tight text-center text-dark-grey-900">
                 Tiempo sin fumar: {calcularTiempoFormateado()}
             </h3>
         </div>
